@@ -1,0 +1,17 @@
+{
+	"name":"viniciusdnb/database",
+	"description":"gerenciador de base de dados",
+	"authors": [
+		{
+			"name":"viniciusdnb",
+			"email":"viniciusdnb@hotmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4":
+		{
+			"DataBase\\":"src/"
+		}
+	}
+
+}
