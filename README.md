@@ -4,13 +4,8 @@
 ## 1° passo
 	* configurar o arquivo config.json
 	
-	```
-git status
-git add
-git commit
-```
 	
-	```
+	
 	{
 		"DB":{
 			"DB_DRIVER":"driver do seu banco de dados",
@@ -20,4 +15,4 @@ git commit
 			"DB_NAME":"nome do seu banco de dados"
 		}		
 	}
-	```
+	
