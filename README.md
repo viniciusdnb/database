@@ -3,6 +3,7 @@
 
 ## 1° passo
 	* configurar o arquivo config.json
+	
 	```javascript
 	{
 		"DB":{
