@@ -5,6 +5,12 @@
 	* configurar o arquivo config.json
 	
 	```
+git status
+git add
+git commit
+```
+	
+	```
 	{
 		"DB":{
 			"DB_DRIVER":"driver do seu banco de dados",
