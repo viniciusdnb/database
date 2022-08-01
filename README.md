@@ -5,7 +5,7 @@
 	configurar o arquivo config.json
 	
 	
-	```json	
+```json	
 	{
 		"DB":{
 			"DB_DRIVER":"driver do seu banco de dados",
@@ -15,5 +15,5 @@
 			"DB_NAME":"nome do seu banco de dados"
 		}		
 	}
-	```
+```
 	
