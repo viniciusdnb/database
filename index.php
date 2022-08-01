@@ -8,8 +8,8 @@ echo "<pre>";
 try {
 
 $u = new UserModel;
-$u->select();
-$u->insert(["vini"]);
+var_dump($u->select());
+
 //$u->delete(2);
 //$u->update(["vinicius"], "nameUser LIKE '%vin%'"));
 
