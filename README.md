@@ -5,7 +5,7 @@
 	configurar o arquivo config.json
 	
 	
-	```javascript	
+	```json	
 	{
 		"DB":{
 			"DB_DRIVER":"driver do seu banco de dados",
