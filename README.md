@@ -3,7 +3,7 @@
 
 ## 1° passo
 	* configurar o arquivo config.json
-	```json
+	```javascript
 	{
 		"DB":{
 			"DB_DRIVER":"driver do seu banco de dados",
