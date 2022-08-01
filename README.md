@@ -1,8 +1,9 @@
-# database
- * um simples gerenciador CRUD
+# GERENCIADOR DATABASE
+ 	um simples gerenciador CRUD
 
 ## 1° passo
-	* configurar o arquivo config.json
+	configurar o arquivo config.json
+	
 	
 	```javascript	
 	{
