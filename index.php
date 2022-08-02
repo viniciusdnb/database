@@ -3,15 +3,17 @@
 require __DIR__ .'/vendor/autoload.php';
 
 
-use DataBase\UserModel;
+
+use DataBase\UsuarioModel;
+
 echo "<pre>";
 try {
 
-$u = new UserModel;
-var_dump($u->select());
+$usuario = new UsuarioModel;
 
-//$u->delete(2);
-//$u->update(["vinicius"], "nameUser LIKE '%vin%'"));
+$usuario->insert([6, "filipe", "27", "filipe@hotmail.com"],true);
+
+
 
 
 	
