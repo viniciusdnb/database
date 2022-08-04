@@ -8,7 +8,7 @@ class Config
 {
 	private $configFile;
 	private $configDB;
-	private $configLOCAL;
+	
 
 	function __construct()
 	{
@@ -31,7 +31,7 @@ class Config
 		$this->configFile = $file;
 		$this->setVars();
 		$this->defineDB();
-		$this->defineLOCAL();
+	
 	}
 
 	private function getConfigFile()
@@ -43,7 +43,7 @@ class Config
 	{
 		$jsonConfig = json_decode($this->getConfigFile());
 		$this->configDB = $jsonConfig->DB;
-		$this->configLOCAL = $jsonConfig->LOCAL;
+		
 	}
 
 	private function defineDB()
@@ -55,10 +55,6 @@ class Config
 		define("DB_NAME", $this->configDB->DB_NAME);
 	}
 
-	private function defineLOCAL()
-	{
-		define("LOCAL", $this->configLOCAL->HOST);
-	}
 
 }
 
