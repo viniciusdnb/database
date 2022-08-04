@@ -28,7 +28,7 @@ class Config
 
 	private function setConfigFile()
 	{
-		$file = file_get_contents("src/config.json");
+		$file = file_get_contents(__DIR__."/config.json");
 		$this->configFile = $file;
 		$this->setVars();
 		$this->defineDB();
