@@ -13,7 +13,8 @@ class Config
 	function __construct()
 	{
 		//verifica se o arquivo existe e se nao esta vazio
-		if(file_exists("src/config.json") && file_get_contents("src/config.json") != null)
+		
+		if(file_exists(__DIR__."/config.json") && file_get_contents(__DIR__."/config.json") != null)
 		{
 			$this->setConfigFile();
 		}
